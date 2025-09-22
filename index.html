@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .parent{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 150px;
+     
+    }
+    /* nav */
+    .nav{
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      border: 1px solid black none;
+     
+     
+      
+    }
+    /* logo */
+    .logo{
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: purple;
+    }
+    /* nav-links */
+    .nav-links{
+      font-size: 20px;
+      display: flex;
+      gap: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+     
+    }
+    .nav-links a{
+      text-decoration: none;
+       color: purple;
+  
+    }
+    /* nav-button */
+    .nav-button{
+          background-color: purple;
+            color: aliceblue;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 7px 9px;
+            border-radius: 20px;
+      
+    }
+     /* nav */
+           /* mobile */
+        @media(min-width:300px){
+            .nav{
+                flex-direction: column; }
+        }
+        /* tab */
+          @media(min-width:600px){
+            .nav{
+                flex-direction: row; }
+        }
+        /* laptop */
+           @media(min-width:900px){
+            .nav{
+                flex-direction: row; }
+        } 
+        /* nav-links */
+          /* mobile */
+        @media(min-width:300px){
+            .nav-links{
+                flex-direction: column; }
+        }
+        /* tab */
+          @media(min-width:600px){
+            .nav-links{
+                flex-direction: row; }
+        }
+        /* laptop */
+           @media(min-width:900px){
+            .nav-links{
+                flex-direction: row; }
+        } 
+        /* start-hero-saction */
+        .hero-saction{
+          width: 100%;
+         border: 1px solid black none;
+         display: flex;flex-direction: row;justify-content: space-around;align-items: center;
+         gap: 20%;
+       
+        }
+        .hero-1{
+          border: 1px solid black none;
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          
+        }
+        /* img-1 */
+        .hero-2{
+          border: 1px solid black none;
+          width: 30%;
+          overflow: hidden;
+          width: 200px;
+          height: 200px;
+          border-radius: 90%;
+        }
+        /* hero-saction media*/
+            /* mobile */
+        @media(min-width:300px){
+            .hero-saction{
+                flex-direction: column; }
+        }
+        /* tab */
+          @media(min-width:600px){
+            .hero-saction{
+                flex-direction: row; }
+        }
+        /* laptop */
+           @media(min-width:900px){
+            .hero-saction{
+                flex-direction: row; }
+        } 
+       
+        /* hero-1 */
+      /* mobile */
+      @media(min-width:300px){
+        .hero-1{
+          width: 90%;
+        }
+      }
+      
+      /* hero-2 */
+      /* mobile */
+      @media(min-width:300px){
+        .hero-2{
+          width: 50%;
+        }
+      }
+      @media(min-width:600px){
+        .hero-2{
+          width: 30%;
+        }
+      }
+      @media(min-width:900px){
+        .hero-2{
+          width: 30%;
+        }
+      }
+
+      /* next-saction */
+      .next-saction{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border:1px solid black none;
+      }
+      /* next-saction-media */
+       /* mobile */
+        @media(min-width:300px){
+            .next-saction{
+                flex-direction: column; }
+        }
+        /* tab */
+          @media(min-width:600px){
+            .next-saction{
+                flex-direction: row; }
+        }
+        /* laptop */
+           @media(min-width:900px){
+            .next-saction{
+                flex-direction: row; }
+        } 
+        /* saction-three */
+        .saction-three{
+          width: 100%;
+          display: flex;flex-direction: column;
+          border: 1px solid black none;
+        }
+        /* saction-three-media */
+         /* mobile */
+        @media(min-width:300px){
+            .saction-three{
+                flex-direction: column; }
+        }
+        /* tab */
+          @media(min-width:600px){
+            .saction-three{
+                flex-direction: row; }
+        }
+        /* laptop */
+           @media(min-width:900px){
+            .saction-three{
+                flex-direction: row; }
+        } 
+       
+     
+
+       
+      /* saction-6        */
+      .saction-6{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black none;
+
+      }
+      .saction-6-part{
+        width: 100%;display: flex;flex-direction:row;border: 1px solid rgb(240, 27, 27) none;gap: 20%;
+      }
+      /* saction-part-6 */
+               /* mobile */
+        @media(min-width:300px){
+            .saction-6-part{
+                flex-direction: column; }
+        }
+        /* tab */
+          @media(min-width:600px){
+            .saction-6-part{
+                flex-direction: row; }
+        }
+        /* laptop */
+           @media(min-width:900px){
+            .saction-6-part{
+                flex-direction: row; }
+        } 
+
+
+        /* part-end */
+        .part-end{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          border: 1px solid black none;
+        }
+        .end-1{
+          font-size: 50px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-weight: 600;
+        }
+        
+        .footar{
+         
+         display: flex;
+          flex-direction: column;
+        }
+         .footar-1{
+        
+          display: flex;
+          flex-direction: column;
+        }
+        .lest-part{
+          width: 100%;
+          display: flex;flex-direction:row;
+          border: 1px solid black none;
+          gap: 20%;
+        }
+        /* lesr-part */
+                 /* mobile */
+        @media(min-width:300px){
+            .lest-part{
+                flex-direction: column; }
+        }
+        /* tab */
+          @media(min-width:600px){
+            .lest-part{
+                flex-direction: row; }
+        }
+        /* laptop */
+           @media(min-width:900px){
+            .lest-part{
+                flex-direction: row; }
+        } 
+        /* fotar-saction */
+      
+              .footer{
+        border: 1px  solid black none ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:20%;
+        background-color: rgb(223, 214, 223);
+        color: white;
+      }
+       @media(min-width:300px){
+        .footer{
+          flex-direction:column;
+        }
+    }
+    /* tab */
+     @media(min-width:600px){
+        .footer{
+          flex-direction:row;
+        }
+      }
+    /* laptop */
+     @media(min-width:900px){
+        .footer{
+          flex-direction: row;
+        }
+      }
+  
+     
+     
+    
+
+      
+       
+  </style>
+</head>
+<body>
+   <!-- parent start -->
+  <div class="parent">
+
+
+ <!-- nav -->
+     <div class="nav">
+      <!-- logo -->
+      <div class="logo">
+        Alishba Eman
+      </div>
+      <!-- nav-links -->
+      <div class="nav-links">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Projects</a>
+      </div>
+      <!-- nav-button -->
+      <div class="nav-button">
+        <button>Get in touch</button>
+      </div>
+     </div>
+
+     <!-- hero-saction -->
+      <div class="hero-saction">
+       <div  class="hero-1">
+        <!-- hero-text-1 -->
+         <div style="font-size: 25px; font-weight: 600;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Hey,i'mAlishba</div>
+         <!-- hero-text-2 -->
+        <div style="font-size:50px; display: flex;flex-direction: column;">
+          <div style="color: purple;font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;">Frontend</div>
+          <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;">Developer</div>
+
+        </div>
+    <!-- hero-text3 -->
+     <div style="display: flex;flex-direction: column;">
+      <div style="color: grey; font-size: 18px;font-weight: 600;">i'am frontend developer based in italy ,I'll help you </div>
+        <div style="color: grey;font-size: 18px;font-weight: 600;">build beautifull website your users will love</div>
+     </div>
+        <!-- hero-button -->
+        <div class="hero-button">
+          <button style="background-color: black;color: white;border-radius: 10px;width: 30%;height: 30px;border: none;">Get in touch </button>
+          <button style="background-color:rgb(223, 199, 223);color: rgb(10, 10, 10);border-radius: 10px;width: 30%;height: 30px;border: none">Browse projects</button>
+        </div>
+       </div>
+        <!-- img -->
+         <div class="hero-2">
+            <img src="WhatsApp Image 2025-09-21 at 8.32.04 PM (2).jpeg" alt=""  style="object-fit: cover;width: 100%; height: 100%;">
+
+         </div>
+              
+        </div>
+
+
+        <!-- next-saction- -->
+         <div class="next-saction">
+          <div class="next-1">
+            <div style="font-size: 70px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">About me.</div>
+             <div style="font-size: 23px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: grey;">Developing beautiful and function website  is what i lovedoing and that's why i give my all in everynew challenge i'am frontend developer based in italy ,I'll help you </div>
+
+
+          </div>
+        <!-- parent end -->
+      </div>
+     
+   <!-- Skill-saction -->
+     
+      <div style="border: 1px solid purple none;">
+        <div style="font-size: 50px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Skill</div>
+         <div class="saction-6-part">
+                
+                <div style="border: 1px solid black no ;display: flex;flex-direction: column;gap: 10px;">
+                 <div  style="color: purple;
+                 font-size: 25px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;"> Web Desing </div>
+                 <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;"> UI/UX Desing</div>
+                 <div  style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Responsive Desing</div>
+                 <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Wriefamind</div>
+                 <div  style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">User Research</div>
+                  
+
+                </div>
+               <div style="border: 1px solid black none;display: flex;flex-direction: column;gap: 10px;">
+                <div style="color: purple;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;font-size: 25px;">fronted</div>
+                <div  style="font-size: 15px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Javascirpt</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Next-java</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">ReactJs</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">CSS3</div>
+               </div>
+               <div style="border: 1px solid black none; display: flex;gap: 10px;flex-direction: column;">
+                <div  style="color:purple; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;font-size: 25px;">Banked</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">nadeJs</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">MondoDb</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">ExpressJS</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Vercel</div>
+               </div>
+               <div style="border: 1px solid blackn none;display: flex;flex-direction: column;gap: 10px;">
+                <div style="color:purple;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;font-size: 25px;">Soft Skill</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Effective Communcation</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Collabarotion</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Commitment</div>
+                <div style="font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: grey;">Ledershipe</div>
+               </div>
+              </div>
+      </div>
+             
+
+           
+
+            <!-- lest-part -->
+              
+              <div style="border: 1px solid navy none ;">
+                <div class="end-1">Experience</div>
+
+                 <div  class="lest-part">
+            <div class="last-1" style="border: 1px solid black none; display: flex;flex-direction: column;gap: 15px;">
+              <div style="font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color: purple;">Frontend Developer</div>
+             <div style="font-size: 25px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color:grey;">Other teenologies</div>
+             <div style="font-size: 25px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color: grey;">UI/XL Desgin</div>
+              <div style="font-size: 25px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color: grey;"> Design</div>
+             </div>
+            <!-- div 2 -->
+            
+             <div class="last-2" style="border: 1px solid black none ;display: flex;flex-direction: column;gap: 15px;">
+             <div style="font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color: purple;">Projects</div>
+             <div style="font-size: 23px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color: gray;">Portfolio Desgin</div>
+             <div style="font-size: 23px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color: gray;">Beauty Products Ecommerce</div>
+             <div style="font-size: 23px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;color: gray;">Computer Zone </div>
+             </div>
+            </div>
+
+            </div>
+
+
+            <!-- fotar -->
+            <div class="footer">
+            <div class="home" style="border: 1px solid black none;width: 140px;">
+           <h2 style="color: purple;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;">Experties</h2>
+           <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600; font-size: 20px;color: purple;">UI/UX Desgin</div>
+           <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;font-size: 20px;color: purple;">Animated</div>
+           <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;font-size: 20px ;color: purple;">Logo Desgin</div>
+            </div>
+            <!-- 2nd footer div -->
+              <div class="about" style="border: 1px solid black none;width: 140px;">
+           <h2 style="color: purple;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;">Cmmpany</h2>
+           <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px;color: purple;">Contact Us</div>
+           <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ; font-size: 20px; color: purple;">About Us</div>
+           <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px;color: purple;">News</div>
+            </div>
+            <!-- 3rd footer div -->
+             <div class="contact" style="border: 1px solid black none;width: 140px;">
+              <h2 style="color: purple;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;">Get in Touch</h2>
+                <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600; font-size: 20px;color: purple;">Contact Us</div>
+                <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600; font-size: 20px;color: purple;">About Us</div>
+                <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600; font-size: 20px;color: purple;">News</div>
+            </div>
+              </div>
+
+           
+
+            <!-- parent end -->
+          </div>
+
+
+
+
+
+
+            
+
+
+
+  
+           
+        
+
+
+
+
+
+
+    
+  
+</body>
+</html>
